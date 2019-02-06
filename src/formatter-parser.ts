@@ -1,8 +1,7 @@
-import {conformToMask as realConformToMask} from './static-vendors/index'
-import {IFormatterParserFn} from './struct/formatter-parser-function'
-import {IFormatterParserResult} from './struct/formatter-parser-result'
-import {IConformToMaskConfig} from './struct/transform-functions/conform-to-mask-config'
-
+import {conformToMask as realConformToMask} from './static-vendors/index';
+import {IFormatterParserFn} from './struct/formatter-parser-function';
+import {IFormatterParserResult} from './struct/formatter-parser-result';
+import {IConformToMaskConfig} from './struct/transform-functions/conform-to-mask-config';
 
 export class FormatterParser {
 

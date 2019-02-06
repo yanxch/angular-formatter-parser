@@ -1,21 +1,9 @@
-import {
-  AfterViewInit,
-  Directive,
-  ElementRef,
-  forwardRef,
-  HostListener,
-  Input,
-  OnInit, ViewChild
-} from '@angular/core'
-import {
-  ControlValueAccessor,
-  FormControl,
-  NG_VALUE_ACCESSOR
-} from '@angular/forms'
-import {FormatterParserCollectorService} from './formatter-parser.service'
-import {InputContextService} from './input-context.service'
-import {IFormatterParserConfig} from './struct/formatter-parser-config'
-import {IFormatterParserFn} from './struct/formatter-parser-function'
+import {AfterViewInit, Directive, ElementRef, forwardRef, HostListener, Input} from '@angular/core';
+import {ControlValueAccessor, FormControl, NG_VALUE_ACCESSOR} from '@angular/forms';
+import {FormatterParserCollectorService} from './formatter-parser.service';
+import {InputContextService} from './input-context.service';
+import {IFormatterParserConfig} from './struct/formatter-parser-config';
+import {IFormatterParserFn} from './struct/formatter-parser-function';
 
 declare var Ionic: any;
 
