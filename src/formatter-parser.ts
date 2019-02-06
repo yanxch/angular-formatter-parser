@@ -3,6 +3,7 @@ import {IFormatterParserFn} from './struct/formatter-parser-function';
 import {IFormatterParserResult} from './struct/formatter-parser-result';
 import {IConformToMaskConfig} from './struct/transform-functions/conform-to-mask-config';
 
+// @dynamic
 export class FormatterParser {
 
   static toUpperCase: IFormatterParserFn = (value: any): IFormatterParserResult => {
